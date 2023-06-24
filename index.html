@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Financial Goal Calculator</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Financial Goal Calculator</h1>
+        <form>
+            <div class="form-group">
+                <label for="principal">Principal Amount:</label>
+                <input type="text" id="principal" required>
+            </div>
+
+            <div class="form-group">
+                <label for="interest_rate">Interest Rate (%):</label>
+                <input type="text" id="interest_rate" required>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Calculate" onclick="calculate()">
+            </div>
+        </form>
+
+        <div id="results"></div>
+    </div>
+</body>
+</html>
